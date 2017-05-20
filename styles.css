@@ -61,7 +61,42 @@ body{
 }
 
 .slide3 .slide3_foto1{
+  z-index: 0;
+  width: 387px;
+  height: 614px;
+  display: none;
+  position: absolute;
+}
 
+.slide3_foto1.ativa1{
+  display: inline-block;
+}
+
+.slide3 .slide3_foto2{
+  z-index: 0;
+  width: 334px;
+  height: 242px;
+  display: none;
+  float: right;
+  clear: both;
+  position: relative;
+  top: 467px;
+
+}
+
+.slide3_foto2.ativa2{
+  display: inline-block;
+}
+
+.titulo-Slide3{
+  text-align:center;
+  color: rgb(255,79,0);
+  padding-right: 300px;
+  padding-top: 75px;
+  display: grid;
+  float: right;
+  font-size: 45px;
+  position: relative;
 }
 
 .slide4{
@@ -85,5 +120,13 @@ body{
 }
 
 .slide5 .slide5_foto1{
+
+}
+
+@media (max-width: 1000px)
+{
+  .slide3 .slide3_foto1{
+    display: block;
+   }
 
 }
