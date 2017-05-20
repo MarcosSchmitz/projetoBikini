@@ -11,7 +11,7 @@ function trocaImagem1(){
   imagem1Slide3[troca1].classList.add("ativa1");
 
 }
-setInterval(trocaImagem1,2000);
+setInterval(trocaImagem1,4000);
 
 function trocaImagem2(){
 
@@ -21,4 +21,4 @@ function trocaImagem2(){
   imagem2Slide3[troca2].classList.add("ativa2");
 
 }
-setInterval(trocaImagem2,3000);
+setInterval(trocaImagem2,5000);

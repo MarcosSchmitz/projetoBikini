@@ -54,11 +54,13 @@ body{
 
 .slide3{
     z-index: -1;
-    background-image: url('./imagens/0003.jpg');
+    /*background-image: url('./imagens/0003.jpg');*/   /*Imagem Guia Section 3*/
     background-size: 100% 100%;
     width: 1000px;
     height: 760px;
 }
+
+
 
 .slide3 .slide3_foto1{
   z-index: 0;
@@ -80,7 +82,7 @@ body{
   float: right;
   clear: both;
   position: relative;
-  top: 467px;
+  top: 1px;
 
 }
 
@@ -88,15 +90,56 @@ body{
   display: inline-block;
 }
 
+.fadeIn {
+-webkit-animation: fadeIn 1s ease-in-out;
+-moz-animation: fadeIn 1s ease-in-out;
+-o-animation: fadeIn 1s ease-in-out;
+animation: fadeIn 1s ease-in-out;
+}
+
 .titulo-Slide3{
   text-align:center;
   color: rgb(255,79,0);
-  padding-right: 300px;
-  padding-top: 75px;
+  padding-right: 170px;
+  padding-top: 15px;
   display: grid;
   float: right;
-  font-size: 45px;
+  font-size: 50px;
+  font-family:'Khula', sans-serif;
   position: relative;
+  margin-bottom: 40px;
+}
+
+.pena{
+  padding-left: 540px;
+  padding-top: 38px;
+  position: absolute;
+}
+
+.corpo-slide3{
+  text-align: justify;
+  color: rgb(125,125,125);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 420px;
+  padding-right: 160px;
+  padding-top: 0px;
+  display: grid;
+  float: right;
+  font-size: 25px;
+  line-height: 33px;
+
+  font-family:'Khula', sans-serif;
+  position: relative;
+}
+
+.parte2{
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.parte3{
+  margin-top: 3px;
+  margin-bottom: 0px;
 }
 
 .slide4{
@@ -123,10 +166,19 @@ body{
 
 }
 
-@media (max-width: 1000px)
-{
-  .slide3 .slide3_foto1{
-    display: block;
-   }
-
+@-webkit-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+@-moz-keyframes fadeIn {
+0% { opacity: 0;}
+100% { opacity: 1; }
+}
+@-o-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
 }
